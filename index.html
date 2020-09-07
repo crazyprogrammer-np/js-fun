@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare Your Status With Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="container">
+  <h2 id="displayTitle">Hey buddy what's your status?</h2>
+  <div class="choice-box">
+    <button id="single" onclick="relationGame(this)">Single</button>
+    <button id="inRelationship" onclick="relationGame(this)">In a Relationship</button>
+  </div>
+  <div class="final-result">
+    <h2 id="user"></h2>&nbsp;
+    <h2 id="bot"></h2>
+  </div>
+  <div class="bot-msg">
+    <h2 id="botMgsH2"></h2>
+    <p id="botMgsP"></p>
+  </div>
+
+  <div>
+    <h5 class="program-footer"></h5>
+  </div>
+  
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
